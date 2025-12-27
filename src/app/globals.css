@@ -65,13 +65,54 @@ body {
 }
 
 .wallet-adapter-modal-wrapper {
-  background-color: white !important;
-  border-radius: 12px !important;
+  background-color: #0f172a !important; /* Slate 900 */
+  border-radius: 16px !important;
+  border: 1px solid #334155 !important; /* Slate 700 */
 }
 
 .wallet-adapter-modal-title {
-  color: var(--foreground) !important;
-  font-weight: 600 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+.wallet-adapter-modal-list {
+  background-color: #0f172a !important;
+}
+
+.wallet-adapter-modal-list-item {
+  background-color: #1e293b !important; /* Slate 800 */
+  border: 1px solid #334155 !important; /* Slate 700 */
+  border-radius: 8px !important;
+  margin-bottom: 8px !important;
+}
+
+.wallet-adapter-modal-list-item:hover {
+  background-color: #334155 !important; /* Slate 700 */
+  border-color: #475569 !important; /* Slate 600 */
+}
+
+.wallet-adapter-button {
+  background-color: #1e293b !important;
+  color: #ffffff !important;
+}
+
+.wallet-adapter-button-end-icon,
+.wallet-adapter-button-start-icon {
+  color: #ffffff !important;
+}
+
+.wallet-adapter-modal-overlay {
+  background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.wallet-adapter-modal-button-close {
+  background-color: #334155 !important;
+  color: #94a3b8 !important;
+}
+
+.wallet-adapter-modal-button-close:hover {
+  background-color: #475569 !important;
+  color: #e2e8f0 !important;
 }
 
 input,

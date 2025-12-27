@@ -17,10 +17,10 @@ export default function Header() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-3 group">
           <div className="w-10 h-10 bg-slate-900 rounded-xl flex items-center justify-center text-white font-black text-2xl group-hover:bg-emerald-600 transition-all duration-300 transform group-hover:rotate-6 shadow-lg shadow-slate-900/10">
-            F
+            CF
           </div>
           <span className="text-xl font-black text-slate-900 tracking-tighter uppercase transition-colors group-hover:text-emerald-600">
-            Fundus<span className="text-slate-400 font-medium">Protocol</span>
+            Crowd<span className="text-slate-400 font-medium">Fundus</span>
           </span>
         </Link>
 
